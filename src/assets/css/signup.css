@@ -1,0 +1,47 @@
+.card {
+  border-radius: 10px;
+}
+.table th,
+.table td {
+  white-space: nowrap;
+}
+
+/* Responsive CSS */
+@media (max-width: 1200px) {
+  .col-md-7 {
+    width: 75%;
+  }
+}
+@media (max-width: 992px) {
+  .col-md-7 {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .col-md-7 {
+    width: 90%;
+  }
+}
+@media (max-width: 576px) {
+  .col-md-7 {
+    width: 100%;
+  }
+  .card {
+    padding: 12px !important;
+  }
+}
+@media (max-width: 400px) {
+  .card {
+    padding: 10px !important;
+  }
+  .card h3 {
+    font-size: 20px;
+  }
+  .table {
+    font-size: 13px;
+  }
+  .table .btn {
+    font-size: 11px;
+    padding: 4px 7px;
+  }
+}
